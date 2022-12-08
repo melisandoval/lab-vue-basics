@@ -1,5 +1,9 @@
 <template>
-  <div>This is a footer</div>
+  <div>{{ getFooterText() }}</div>
 </template>
 
-<script setup></script>
+<script setup>
+const getFooterText = () => {
+  return "This is the footer";
+};
+</script>

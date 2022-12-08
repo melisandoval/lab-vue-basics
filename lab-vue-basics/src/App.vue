@@ -1,7 +1,8 @@
 <template>
   <Navbar />
   <main>
-    <p v-if="show">This is a conditional element</p>
+    <p v-if="show" :class="backgroundColor">This is a conditional element</p>
+    <button @click="changePColor">Change color</button>
     <Card />
   </main>
   <Footer />
@@ -14,6 +15,22 @@ import Card from "./components/Card.vue";
 import { ref } from "vue";
 
 const show = ref(true);
+
+let backgroundColor = ref("blue");
+
+const changePColor = () => {
+  backgroundColor.value === "blue"
+    ? (backgroundColor.value = "grey")
+    : (backgroundColor.value = "blue");
+};
 </script>
 
-<style scoped></style>
+<style scoped>
+.blue {
+  background-color: lightblue;
+}
+
+.grey {
+  background-color: lightgrey;
+}
+</style>

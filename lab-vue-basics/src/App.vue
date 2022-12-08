@@ -2,6 +2,7 @@
   <Navbar />
   <main>
     <p v-if="show">This is a conditional element</p>
+    <Card />
   </main>
   <Footer />
 </template>
@@ -9,6 +10,7 @@
 <script setup>
 import Navbar from "./components/Navbar.vue";
 import Footer from "./components/Footer.vue";
+import Card from "./components/Card.vue";
 import { ref } from "vue";
 
 const show = ref(true);

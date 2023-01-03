@@ -1,51 +1,5 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+# Bootcamp LAB | Vue.js Basics
 
-# LAB | Vue.js Basics
-
-## Introduction
-
-In this lab, you'll continue exploring the basics of how to use Vue.js and will set the foundation for bigger, more complicated projects.
-
-Here are the things you'll have to achieve during this lab:
-
-- Create a basic template structure inside a new project.
-- Display the result of a JavaScript operation in a component's HTML.
-- Show an element only if a particular property is set to `true`.
-- Display a list of elements that are stored inside a component.
-- (Bonus) Change the background color of an element when pressing a button.
-
-Let's begin!
-
-## Setup
-
-- Fork this repo
-- Clone this repo
-- Open the LAB and start:
-
-  ```bash
-  $ cd lab-vue-basics
-  $ npm install
-  $ npm start
-  ```
-
-
-## Submission
-
-- Upon completion, run the following commands:
-
-  ```bash
-  git add .
-  git commit -m "done"
-  git push origin main
-  ```
-
-- Create a Pull Request so that your TAs can check your work.
-
-
-<!-- ## Getting Started -->
-
-
-## Instructions
 
 ### Iteration 1 | Create a basic template structure inside a new project
 
@@ -94,9 +48,3 @@ We haven't gone very deep into this topic; but here are some tips to point you i
 
 - You'll need to create either a class or a CSS property and [bind it](https://v1.vuejs.org/guide/syntax.html) to a condition.
 - You'll have to create a method that changes the class or the property and trigger it via a button click. We practiced that in yesterday's lab, so feel free to refer to it if you need any help.
-
-Sounds good? Let's get started!
-
-<br>
-
-Happy coding! :heart:
